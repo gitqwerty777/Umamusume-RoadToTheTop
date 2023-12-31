@@ -1,24 +1,19 @@
 # umamusume-race-info
 
-## Project setup
-```
-pnpm install
-```
+Show horse race information
 
-### Compiles and hot-reloads for development
-```
-pnpm run serve
-```
+## Example
 
-### Compiles and minifies for production
-```
-pnpm run build
-```
+[Road to the Top](https://gitqwerty777.github.io/road-to-the-top/)
 
-### Lints and fixes files
-```
-pnpm run lint
-```
+## Used Libraries
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- pnpm
+- umamusume-ui
+- vuetify
+
+## TODO
+
+- Play Audio
+- 角色資訊
+- 賽事資訊(分角色)
