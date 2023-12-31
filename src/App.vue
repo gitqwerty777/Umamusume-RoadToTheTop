@@ -12,7 +12,6 @@
         class="inline"
         />
       <h1 class="middle">
-        Road To The Top
         <v-btn tile @click="toggleFullscreen()">
           <Icon icon="material-symbols:fullscreen-rounded" />
         </v-btn>
@@ -22,11 +21,10 @@
         <v-btn tile @click="toggleVideo()">
           <Icon :icon="videoIconName" />
         </v-btn>
-        <v-btn tile @click="showAbout()">
-          <Icon icon="mdi:tooltip-question" />
-        </v-btn>
+        <About></About>
       </h1>
       </v-row>
+      
       <!-- TODO: put at middle -->
       <!-- TODO: AUTO FULLSCREEN -->
       <v-timeline class="v-row">
@@ -68,13 +66,15 @@
 <script>
 import UmaRace from "./components/UmaRace.vue"
 import raceData from "./assets/race.json"
-import { Icon } from '@iconify/vue2';
+import About from "./About.vue"
+import { Icon } from '@iconify/vue2'
 
 export default {
   name: 'App',
   components: {
     UmaRace,
-    Icon
+    Icon,
+    About
   },
   mounted() {
     // this.$refs.vapp.requestFullscreen();
