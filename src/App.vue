@@ -1,17 +1,58 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app>
+    <v-card
+    elevation="2"
+    outlined
+    shaped
+    ></v-card>
+    <h1>Umamusume</h1>
+    <um-button>hello</um-button>
+    <um-tabs v-model="name">
+      <um-tab-pane label="bar">
+      </um-tab-pane>
+      <um-tab-pane label="foo">
+        <UmaRace />
+      </um-tab-pane>
+      <um-tab-pane label="baz">
+      </um-tab-pane>
+      </um-tabs>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+  import UmaRace from "./components/UmaRace.vue"
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    UmaRace
+  },
+  data() {
+    return {
+      race1: [
+          {
+              horse: "サイレンススズカ",
+              rider: "武豊",
+              racenumber: "1",
+              runtime: "2:28.1",
+              rank: "1"
+          },
+          {
+              horse: "サイレンススズカ",
+              rider: "武豊",
+              racenumber: "1",
+              runtime: "2:28.1",
+              rank: "2"
+          },
+          {
+              horse: "サイレンススズカ",
+              rider: "武豊",
+              racenumber: "1",
+              runtime: "2:28.1",
+              rank: "3"
+          }
+      ]
+    }
   }
 }
 </script>
