@@ -17,10 +17,10 @@
     <v-carousel-item
       v-for="(item,i) in info.images"
       :key="i"
-      :src="require('@/assets/'+item+'.png')"
+      :src="require('@/assets/screenshots/'+item+'.webp')"
       class="carousel-fit"
       link
-      :href="require('@/assets/'+item+'.png')"
+      :href="require('@/assets/screenshots/'+item+'.webp')"
       target="_blank"
       eager
     >

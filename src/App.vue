@@ -1,6 +1,5 @@
 <template>
   <v-app ref="vapp">
-    <!-- <audio id="bgm" src="@/assets/bgm.mp3" loop autoplay></audio> -->
     <video id="opening" src="@/assets/video/opening-compressed.mp4" loop autoplay background></video>
     <v-container fluid>
     <v-row align="center" justify="center">
@@ -163,13 +162,13 @@ export default {
 
 <style>
 #app {
-  font-family: "更紗黑體 UI TC";
+  font-family: "更紗黑體 UI TC", "微軟正黑體", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
 
-  background-image: url('./assets/rttt.png');
+  background-image: url('./assets/rttt-bg.webp');
   background-repeat: no-repeat;
   background-size: cover;
 }
