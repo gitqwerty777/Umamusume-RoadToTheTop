@@ -21,7 +21,7 @@
         <v-btn tile @click="toggleVideo()">
           <Icon :icon="videoIconName" />
         </v-btn>
-        <About></About>
+        <AboutRTTT />
       </h1>
       </v-row>
       
@@ -66,7 +66,7 @@
 <script>
 import UmaRace from "./components/UmaRace.vue"
 import raceData from "./assets/race.json"
-import About from "./About.vue"
+import AboutRTTT from "./AboutRTTT.vue"
 import { Icon } from '@iconify/vue2'
 
 export default {
@@ -74,7 +74,7 @@ export default {
   components: {
     UmaRace,
     Icon,
-    About
+    AboutRTTT
   },
   mounted() {
     // this.$refs.vapp.requestFullscreen();

@@ -61,7 +61,7 @@ export default ({
                 "tm-opera-o": "好歌劇",
             }
             var result = this.info.result;
-            result.forEach(function (item, index) {
+            result.forEach(function (item) {
                 item.horse = horseKeyToName[item['horse-key']];
             });
             return result;

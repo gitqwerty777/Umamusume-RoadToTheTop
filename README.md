@@ -1,19 +1,23 @@
-# umamusume-race-info
+# Umamusume-RoadToTheTop
 
-Show horse race information
+Show horse race information.
 
-## Example
+Use Anime "ウマ娘 Road to the Top" as an example, as respect for all the staffs of this anime.
+
+## Demo
 
 [Road to the Top](https://gitqwerty777.github.io/road-to-the-top/)
+![](./readme-demo.png)
 
-## Used Libraries
+## Used Frameworks/Libraries
 
+- vue
 - pnpm
 - umamusume-ui
 - vuetify
+- iconify
 
 ## TODO
 
-- Play Audio
 - 角色資訊
 - 賽事資訊(分角色)

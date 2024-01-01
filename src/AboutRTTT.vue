@@ -29,12 +29,11 @@
         All rights belong to the owner.<br>
         i.e., Cygames Inc., スタジオKAI
         <v-spacer></v-spacer><br>
-
-        <h4>Any Improvement(Issue/Pull Request) is welcomed.</h4>
-        <v-btn color="primary" href="https://github.com/gitqwerty777/Umamusume-RoadToTheTop">Github Repository</v-btn>
-
-        <v-spacer></v-spacer><br>
-        <h4>Powered by Vue</h4>
+        
+        <h3>關於此網頁</h3>
+        Any Improvement(Issue/Pull Request) is welcomed.
+        <br>我很盡力排版了…
+        <br><v-btn color="primary" href="https://github.com/gitqwerty777/Umamusume-RoadToTheTop">Github Repository</v-btn>
     </v-card-text>
     <v-card-actions>
         <v-spacer></v-spacer>
@@ -55,7 +54,7 @@
 import { Icon } from '@iconify/vue2';
 
 export default {
-    name: 'About',
+    name: 'AboutRTTT',
     components: {
         Icon
     },
