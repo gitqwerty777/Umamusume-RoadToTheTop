@@ -162,13 +162,13 @@ export default {
 
 <style>
 #app {
-  font-family: "更紗黑體 UI TC", "微軟正黑體", sans-serif;
+  font-family: "sarasa", "微軟正黑體", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
 
-  background-image: url('./assets/rttt-bg.webp');
+  background-image: url('@/assets/rttt-bg.webp');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -203,4 +203,11 @@ body {
 .inline {
   display: inline-block;
 }
+
+@font-face {
+  font-family: "sarasa";
+  font-display: auto;
+  src: url("@/assets/sarasa-ui-tc-regular.ttf") format("truetype")
+}
+
 </style>

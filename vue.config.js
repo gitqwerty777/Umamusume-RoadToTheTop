@@ -3,5 +3,12 @@ module.exports = defineConfig({
   transpileDependencies: [
     'vuetify'
   ],
-  publicPath: "/Umamusume-RoadToTheTop/"
+  publicPath: "/Umamusume-RoadToTheTop/",
+  pages: {
+    index: {
+      // entry for the page
+      entry: 'src/main.js',
+      title: 'Road To The Top',
+    },
+  }
 })
